@@ -29,7 +29,7 @@ jobs:
             . venv/bin/activate
             pip install -r requirements.txt
             git clone git@github.com:modelica/fmi-standard.org.git
-            git clone https://github.com/CATIA-Systems/FMPy.git --branch feature/fmi-xc
+            git clone https://github.com/CATIA-Systems/FMPy.git --branch develop
 
       - save_cache:
           paths:
